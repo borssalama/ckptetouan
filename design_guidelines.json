@@ -1,0 +1,139 @@
+{
+  "brand": {
+    "name": "CKP TÉTOUAN — Centre de Kinésithérapie Iman El Jemaati",
+    "theme": "light",
+    "archetype": "Cinematic Organic Luxury (Archetype 1 Base + Archetype 5 Lighting)",
+    "tone": "Modern medical luxury, calming confidence, human warmth, elite rehabilitation",
+    "language": "French"
+  },
+  "colors": {
+    "primary": {
+      "teal_sarcelle": "#2BA89E",
+      "teal_dark": "#1F827A",
+      "teal_light": "#49CFC5"
+    },
+    "neutrals": {
+      "ivory_white": "#F9F8F6",
+      "warm_sand": "#EFEBE1",
+      "champagne_beige": "#F2EBE3",
+      "muted_stone_gray": "#8C8C8C",
+      "deep_charcoal": "#2C2C2C",
+      "pure_white": "#FFFFFF"
+    },
+    "accents": {
+      "sage_green": "#8A9A86",
+      "soft_eucalyptus": "#B2C2BB",
+      "subtle_gold": "#D4AF37"
+    },
+    "guidelines": "Use Ivory White and Warm Sand for section backgrounds. Deep Charcoal for main typography (never pure black). Teal Sarcelle (#2BA89E) must be the primary action color (buttons, active states, highlights). Subtle Gold and Eucalyptus are used for decorative elements and borders."
+  },
+  "typography": {
+    "fonts": {
+      "headings": "Fraunces, 'Playfair Display', serif",
+      "body": "Outfit, 'Manrope', sans-serif"
+    },
+    "rules": {
+      "h1": "text-5xl md:text-6xl lg:text-7xl font-serif tracking-tight leading-tight",
+      "h2": "text-3xl md:text-4xl lg:text-5xl font-serif tracking-tight leading-snug",
+      "h3": "text-xl md:text-2xl font-serif",
+      "body": "text-base md:text-lg font-sans text-deep_charcoal/80 leading-relaxed",
+      "overline": "text-sm uppercase tracking-[0.2em] font-sans font-medium text-teal_sarcelle",
+      "decorative_arabic": "Used subtly in backgrounds or low-opacity watermarks to honor roots, but all core text must be French."
+    }
+  },
+  "surfaces": {
+    "glassmorphism": {
+      "light": "backdrop-blur-xl bg-white/50 border border-white/60 shadow-[0_8px_32px_rgba(43,168,158,0.05)]",
+      "heavy": "backdrop-blur-2xl bg-white/80 border border-white/40 shadow-lg"
+    },
+    "solid": {
+      "card": "bg-white rounded-3xl border border-warm_sand shadow-sm hover:shadow-md transition-shadow"
+    },
+    "textures": {
+      "grain_overlay": "pointer-events-none fixed inset-0 opacity-[0.03] mix-blend-multiply bg-[url('https://static.prod-images.emergentagent.com/jobs/ab8538c5-1504-46c7-af1f-eb745ac442fe/images/011f8df8efde76fbf061d6a27da6a75650d11910ff469a369379865dad770f8b.png')] z-50"
+    }
+  },
+  "media": {
+    "hero": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBzcGElMjBtYXNzYWdlJTIwdGhlcmFweSUyMG5hdHVyYWwlMjBsaWdodHxlbnwwfHx8fDE3NzkxMzk3NDV8MA&ixlib=rb-4.1.0&q=85",
+    "founder_portrait": "https://images.unsplash.com/photo-1659353888906-adb3e0041693?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBmZW1hbGUlMjBkb2N0b3IlMjBwb3J0cmFpdCUyMHdhcm18ZW58MHx8fHwxNzc5MTM5NzQ1fDA&ixlib=rb-4.1.0&q=85",
+    "human_motion_silhouette": "https://static.prod-images.emergentagent.com/jobs/ab8538c5-1504-46c7-af1f-eb745ac442fe/images/46c6dce3e20fa871e56b2cf727031950e38ff3271b12b57e52df055ecac88d95.png",
+    "wellness_experience": "https://images.unsplash.com/photo-1743657166982-9e3ff272122b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxjYWxtJTIwYWJzdHJhY3QlMjB3ZWxsbmVzcyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzc5MTM5NzU0fDA&ixlib=rb-4.1.0&q=85",
+    "abstract_texture": "https://static.prod-images.emergentagent.com/jobs/ab8538c5-1504-46c7-af1f-eb745ac442fe/images/011f8df8efde76fbf061d6a27da6a75650d11910ff469a369379865dad770f8b.png",
+    "services": [
+      "https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBzcGElMjBtYXNzYWdlJTIwdGhlcmFweSUyMG5hdHVyYWwlMjBsaWdodHxlbnwwfHx8fDE3NzkxMzk3NDV8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1645005513713-9e2b92a687d3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxwaHlzaWNhbCUyMHRoZXJhcHklMjByZWhhYmlsaXRhdGlvbiUyMGNsaW5pY3xlbnwwfHx8fDE3NzkxMzk3NDV8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1709880754472-be89c13abc52?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHw0fHxwaHlzaWNhbCUyMHRoZXJhcHklMjByZWhhYmlsaXRhdGlvbiUyMGNsaW5pY3xlbnwwfHx8fDE3NzkxMzk3NDV8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1645005512942-a17817fb7c11?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxwaHlzaWNhbCUyMHRoZXJhcHklMjByZWhhYmlsaXRhdGlvbiUyMGNsaW5pY3xlbnwwfHx8fDE3NzkxMzk3NDV8MA&ixlib=rb-4.1.0&q=85"
+    ],
+    "avatars": [
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHNtaWxpbmclMjB3YXJtfGVufDB8fHx8MTc3OTEzOTc1NHww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHNtaWxpbmclMjB3YXJtfGVufDB8fHx8MTc3OTEzOTc1NHww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHNtaWxpbmclMjB3YXJtfGVufDB8fHx8MTc3OTEzOTc1NHww&ixlib=rb-4.1.0&q=85"
+    ]
+  },
+  "sections": [
+    {
+      "name": "Navigation",
+      "layout": "Floating transparent navbar with glassmorphism on scroll.",
+      "components": "Logo, Links (À propos, Services, Témoignages), Sticky 'Prendre rendez-vous' button in Teal Sarcelle."
+    },
+    {
+      "name": "Hero Cinematic",
+      "layout": "Full height (min-h-screen). Image background with soft warm overlay (bg-warm_sand/20 to bg-black/10). Parallax effect.",
+      "components": "H1 Title centered or left-aligned. Floating glass CTA card at the bottom right or center with 'Prendre Rendez-vous' pointing to WhatsApp."
+    },
+    {
+      "name": "Trusted Expertise Strip",
+      "layout": "Horizontal strip overlapping the hero bottom or directly below. bg-white or glassmorphism.",
+      "components": "3-4 animated counters (e.g., '10+ Ans Expérience', '1000+ Patients', 'Méthodes Innovantes')."
+    },
+    {
+      "name": "About Iman El Jemaati",
+      "layout": "Asymmetrical 50/50 split. Generous spacing (py-24).",
+      "components": "Left: Large curved or arched portrait image. Right: Typography-rich bio, overline 'NOTRE FONDATRICE', soft signature script accent."
+    },
+    {
+      "name": "Services Grid",
+      "layout": "Bento grid or horizontal scroll. 6 cards: Kinésithérapie, Massage thérapeutique, Rééducation sportive, Traitement lombaire, Rééducation posturale, Drainage & relaxation.",
+      "components": "Cards use large imagery, dark gradient overlays, and reveal text/Teal overlay on hover."
+    },
+    {
+      "name": "Interactive Human Motion",
+      "layout": "Dark or rich Teal backdrop to contrast with the light theme, serving as a visual palette cleanser.",
+      "components": "Center the 3D 'human_motion_silhouette' image. Use framer-motion to create absolute positioned pulsing 'hotspots' (Teal/Gold) over body parts. Hovering a hotspot reveals a tooltip/glass-card with specific therapies."
+    },
+    {
+      "name": "Before/After Storytelling",
+      "layout": "Clean, spacious section with overlapping textual timeline or side-by-side subtle visual journey.",
+      "components": "Focus on textual recovery paths, using elegant typography and soft line separators."
+    },
+    {
+      "name": "Luxury Wellness Experience",
+      "layout": "Full-width parallax or fixed background section using the 'wellness_experience' image.",
+      "components": "Large evocative typography over the image. Minimalist 'Apple-style' text."
+    },
+    {
+      "name": "Testimonials",
+      "layout": "Carousel or staggered masonry layout. py-24 bg-champagne_beige.",
+      "components": "Glass cards containing Avatars, 5-star ratings (Teal or Gold), and patient quotes."
+    },
+    {
+      "name": "Appointment Booking (WhatsApp CTA)",
+      "layout": "Centralized, high-impact CTA section. bg-teal_sarcelle text-white rounded-3xl mx-4 md:mx-12 my-20 p-16.",
+      "components": "Large Headline, WhatsApp icon button with hover scale."
+    },
+    {
+      "name": "Cinematic Footer",
+      "layout": "bg-deep_charcoal text-ivory_white. Generous padding (pt-32 pb-12).",
+      "components": "Brand logo, Contact details (286 N° 2, Av. Hassan II, Tetouan 93000, Maroc. Tel: 06 11 99 21 24), subtle Arabic calligraphic watermark pattern."
+    }
+  ],
+  "motion_and_interactions": {
+    "scroll": "Lenis smooth scrolling is highly recommended for fluidity.",
+    "reveal": "Framer Motion: fade-up and blur-to-focus on scroll (initial={{ opacity: 0, filter: 'blur(10px)', y: 30 }} animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }}).",
+    "hover": "Services cards scale image by 1.05, text translates up. Buttons translate Y by -2px with increased shadow."
+  },
+  "testing": {
+    "attributes": "All interactive elements (buttons, links, hotspots, carousel arrows) MUST include data-testid. Example: data-testid='whatsapp-cta-button'."
+  }
+}
