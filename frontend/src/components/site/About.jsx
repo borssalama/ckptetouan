@@ -43,7 +43,7 @@ export default function About() {
           </h2>
           <p className="text-charcoal/70 leading-relaxed max-w-2xl text-[15px] sm:text-base">
             Diplômée d'État en kinésithérapie et passionnée par la rééducation médicale,
-            Iman El Jemaati a fondé CKP Tétouan pour offrir une médecine du mouvement
+            Iman El Jaamati a fondé CKP Tétouan pour offrir une médecine du mouvement
             attentive, précise et profondément humaine. Chaque séance est pensée comme un
             soin — un dialogue entre science, écoute et toucher thérapeutique.
           </p>
